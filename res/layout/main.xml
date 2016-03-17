@@ -4,10 +4,15 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
 >
-    <TextView
-            android:layout_width="fill_parent"
+    <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-    />
+            android:text="Run new thread"
+            android:id="@+id/bt_run" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:id="@+id/bt_stop" android:layout_gravity="center_horizontal"/>
 </LinearLayout>
 
